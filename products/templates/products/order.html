@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ доставки пиццы</title>
+</head>
+<body>
+    <h1>Оформление заказа доставки пиццы</h1>
+    <form action="обработчик.php" method="POST">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="address">Адрес доставки:</label>
+        <input type="text" id="address" name="address" required>
+        <br><br>
+
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <input type="submit" value="Заказать пиццу">
+    </form>
+</body>
+</html>

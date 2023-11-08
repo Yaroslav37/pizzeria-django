@@ -1,0 +1,297 @@
+
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'vendor/css/index.css' %}" rel="stylesheet">
+{#    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />#}
+    <style>
+    /* Стили для списка партнеров */
+        .partner-list {
+            display: flex; /* Располагаем элементы по горизонтали */
+            list-style: none; /* Убираем маркеры (номера) списка */
+        }
+
+        .partner-list-item {
+            margin-right: 10px; /* Расстояние между логотипами */
+            position: relative; /* Позиционируем элементы, чтобы внутри них создать псевдоэлемент */
+        }
+
+        .partner-box {
+            width: 200px; /* Установите ширину по вашему усмотрению */
+            height: 200px; /* Высоту можно установить также, если необходимо */
+            background-color: #ffffff; /* Цвет фона */
+            border-radius: 50%; /* Радиус скругления для круглой формы */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s; /* Анимация для перехода тени */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .partner-box::before {
+            content: ''; /* Добавляем пустой контент */
+            position: absolute; /* Позиционируем псевдоэлемент */
+            background: rgba(0, 0, 0, 0.3); /* Цвет тени */
+            border-radius: 50%; /* Радиус скругления для круглой тени */
+            width: 100%; /* 100% ширина псевдоэлемента */
+            height: 100%; /* 100% высота псевдоэлемента */
+            transform: scale(0, 1); /* Начальное состояние - тень на правой стороне */
+            transition: transform 0.3s; /* Анимация для перехода тени */
+        }
+
+        .partner-box:hover {
+            transform: translateX(5px); /* Перемещение элемента вправо при наведении */
+        }
+
+        .partner-box:hover::before {
+            transform: scale(1, 1); /* Расширение тени на левую сторону при наведении */
+        }
+
+        .partner-box img {
+            max-width: 80%; /* Установите максимальную ширину изображения */
+            max-height: 80%; /* Установите максимальную высоту изображения */
+        }
+
+        .banner img {
+            width: 100%; /* Распространяем изображение по ширине страницы */
+            {#max-width: 100%; /* Гарантируем, что изображение не будет масштабироваться больше своего оригинального размера */#}
+        }
+
+        .banner {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #cbcbcb;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 50px;
+            margin-top: 50px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .banner:hover {
+            background-color: #ff0000; /* Цвет фона при наведении */
+            color: #fff; /* Цвет текста при наведении */
+        }
+
+        .title-high {
+            font-size: 34px; /* Размер шрифта заголовка */
+            font-weight: bold; /* Жирный текст */
+            color: #333; /* Цвет текста заголовка */
+            text-align: center; /* Выравнивание текста по центру */
+            margin-bottom: 20px; /* Отступ снизу для разделения от других элементов */
+            margin-right: 10px;
+        }
+
+        .title {
+            font-size: 24px; /* Размер шрифта заголовка */
+            font-weight: bold; /* Жирный текст */
+            color: #333; /* Цвет текста заголовка */
+            text-align: center; /* Выравнивание текста по центру */
+            margin-bottom: 20px; /* Отступ снизу для разделения от других элементов */
+            margin-right: 10px;
+        }
+
+        .banner:hover .title {
+            color: #fff; /* Цвет текста при наведении */
+        }
+
+        .box {
+            padding: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer; /* Показываем, что элемент кликабельный */
+            transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+        }
+
+        .box:hover {
+            background-color: #000000; /* Цвет фона при наведении */
+        }
+
+        .box img {
+            max-width: 100%; /* Предотвращаем выход изображения за границы */
+            margin-right: 10px; /* Создаем отступ справа от изображения */
+        }
+
+        @font-face {
+            font-family: 'FontOfKindness';
+            src: url('{% static 'vendor/img/font/FontOfKindness2.0-Regular.otf'%}') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .custom-font {
+            font-family: 'FontOfKindness', sans-serif;
+            font-size: 96px;
+            text-align: center;
+        }
+
+        .box {
+            position: relative;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        .article-info {
+            position: absolute; /* позиционирование */
+            bottom: 0;
+            left: 0;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            width: 100%;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .article-info p {
+            margin: 5px 0;
+        }
+
+        .box:hover .article-info {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .box:hover .title{
+            color: #fff;
+        }
+
+        .banner {
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 9999;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  animation: moveCircle 2s infinite;
+}
+
+.banner::after {
+  content: "✕";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 99999;
+  pointer-events: none;
+}
+
+@keyframes moveCircle {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(0, -50%);
+  }
+  50% {
+    transform: translate(0, 50%);
+  }
+  75% {
+    transform: translate(-50%, 50%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.banner:hover::before {
+  opacity: 1;
+}
+
+.banner:hover::after {
+  opacity: 1;
+}
+
+.banner:hover {
+  cursor: not-allowed;
+}
+
+
+    </style>
+{% endblock %}
+
+{% block content %}
+            <div class="container">
+                <p>
+                    <span class="title-high">Последние новости</span>
+                </p>
+                <div class="box" onclick="window.location.href='{{ last_news.url }}';">
+                    <article class="media">
+                        <div class="media-content">
+                            <div class="content">
+                                <img src="{{ last_news.img }}" alt="">
+                                <div class="article-info">
+                                    <p>
+                                        <span class="title">{{ last_news.title }}</span>
+                                    </p>
+                                    <p>
+                                        <span class="subtitle">{{ last_news.description }}</span>
+                                    </p>
+                                    <p>
+                                        Дата и время: {{ last_news.timestamp|date:"F j, Y H:i:s" }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="banner">
+                    <p>
+                        <span class="title">Реклама  </span>
+                    </p>
+                    <a href="https://www.coca-cola.com/by/be" target="_blank">
+                        <img src="{% static 'vendor/img/img_3.png' %}" alt="Рекламный баннер">
+                    </a>
+                </div>
+
+                <div class="partners">
+                    <p>
+                        <span class="title-high">Наши партнеры</span>
+                    </p>
+                    <ul class="partner-list">
+                        <li class="partner-list-item">
+                            <a href="https://www.lamoda.by/">
+                                <div class="partner-box">
+                                    <img src="{% static 'vendor/img/lamoda.png' %}" alt="Логотип компании 1">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="partner-list-item">
+                            <a href="https://markformelle.by/">
+                                <div class="partner-box">
+                                    <img src="{% static 'vendor/img/mf.png' %}" alt="Логотип компании 2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="partner-list-item">
+                            <a href="https://www.21vek.by/">
+                                <div class="partner-box">
+                                    <img src="{% static 'vendor/img/21vek.png' %}" alt="Логотип компании 3">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+{% endblock %}

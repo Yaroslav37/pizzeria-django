@@ -1,0 +1,2946 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /users/orders/order-create.html
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /media/pepperoni.jpg
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'b7d0-37-214-66-103.ngrok.io'. You may need to add 'b7d0-37-214-66-103.ngrok.io' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'b7d0-37-214-66-103.ngrok.io'. You may need to add 'b7d0-37-214-66-103.ngrok.io' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '5f82-37-214-66-103.ngrok-free.app'. You may need to add '5f82-37-214-66-103.ngrok-free.app' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '5f82-37-214-66-103.ngrok-free.app'. You may need to add '5f82-37-214-66-103.ngrok-free.app' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Not Found: /img/lamoda.png
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /products/orders/orders.html
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 24, in index
+    return render(request, 'products/index.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'p' not found. 'p' is not a valid view function or pattern name.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Watching for file changes with StatReloader
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 26, in index
+    return render(request, 'products/index.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'news' not found. 'news' is not a valid view function or pattern name.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/products/refresh_news/
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/products/refresh_news/
+Not Found: /products/products/refresh_news/
+Not Found: /products/products/refresh_news/
+Not Found: /products/products/refresh_news/
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /news_view/
+Not Found: /news_view/
+Not Found: /news_view/
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Not Found: /refresh_news/
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /refresh_news
+Not Found: /refresh_news
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 28, in index
+    return render(request, 'products/index.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'news_view' not found. 'news_view' is not a valid view function or pattern name.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=Cryptocurrency&from=2021-09-08&sortBy=popularity&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 426 255
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 49, in news
+    a = crypto_news['articles']
+KeyError: 'articles'
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=Cryptocurrency&from=2021-09-08&sortBy=popularity&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 426 255
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 49, in news
+    a = crypto_news['articles']
+KeyError: 'articles'
+Not Found: /refresh_news
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=Cryptocurrency&from=2021-09-08&sortBy=popularity&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 426 255
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 49, in news
+    a = crypto_news['articles']
+KeyError: 'articles'
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=Cryptocurrency&from=2021-09-08&sortBy=popularity&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 426 255
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 49, in news
+    a = crypto_news['articles']
+KeyError: 'articles'
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=Cryptocurrency&from=2021-09-08&sortBy=popularity&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 426 255
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 49, in news
+    a = crypto_news['articles']
+KeyError: 'articles'
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 57, in news
+    f = a[i]
+TypeError: list indices must be integers or slices, not float
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 57, in news
+    f = a[i]
+IndexError: list index out of range
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/['https://s.yimg.com/ny/api/res/1.2/OOKIAeElDRSYKpjdu67sWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/ap.org/2af7ed95bbfc2276d8e7e711edae01a4']
+Not Found: /products/['https://i.blogs.es/78c918/dap2/840_560.jpg']
+Not Found: /products/['https://i.chzbgr.com/original/21930245/hA9453B55/take-out-restaurant-customer-service-service-service-industry-waiter-waitress-fast-food-dining-food']
+Not Found: /products/['https://cupofjo.com/wp-content/uploads/2023/09/french-bulldog.jpeg']
+Not Found: /products/['https://i.chzbgr.com/thumb1200/21894149/hF98875DB/workplace-stories-askreddit-ask-reddit-reddit-thread-haunting-dining-dinner-fine-dining-going-out']
+Not Found: /products/['https://icdn.lenta.ru/images/2023/08/22/11/20230822115545658/share_1c8f79c4fc51a122d9ce26c9e6d9017e.jpeg']
+Not Found: /products/['https://video-images.vice.com/articles/64ed12631e6a5796d1d44f8a/lede/1693259753160-ninjawoodfire4.png
+Not Found: /products/['https://imageio.forbes.com/specials-images/imageserve/65007c0d9c1ba1ee6c827137/0x0.jpg
+Not Found: /products/['https://video-images.vice.com/articles/64fb6b4d1e6a5796d1d6751b/lede/1694198896914-letseat1.png
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/['https://s.yimg.com/ny/api/res/1.2/OOKIAeElDRSYKpjdu67sWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/ap.org/2af7ed95bbfc2276d8e7e711edae01a4']
+Not Found: /products/['https://i.blogs.es/78c918/dap2/840_560.jpg']
+Not Found: /products/['https://i.chzbgr.com/original/21930245/hA9453B55/take-out-restaurant-customer-service-service-service-industry-waiter-waitress-fast-food-dining-food']
+Not Found: /products/['https://video-images.vice.com/articles/64ed12631e6a5796d1d44f8a/lede/1693259753160-ninjawoodfire4.png
+Not Found: /products/['https://i.chzbgr.com/thumb1200/21894149/hF98875DB/workplace-stories-askreddit-ask-reddit-reddit-thread-haunting-dining-dinner-fine-dining-going-out']
+Not Found: /products/['https://cupofjo.com/wp-content/uploads/2023/09/french-bulldog.jpeg']
+Not Found: /products/['https://imageio.forbes.com/specials-images/imageserve/65007c0d9c1ba1ee6c827137/0x0.jpg
+Not Found: /products/['https://video-images.vice.com/articles/64fb6b4d1e6a5796d1d6751b/lede/1694198896914-letseat1.png
+Not Found: /products/['https://icdn.lenta.ru/images/2023/08/22/11/20230822115545658/share_1c8f79c4fc51a122d9ce26c9e6d9017e.jpeg']
+Not Found: /products/['https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1cf285d5eb83d24ca8393a0c62a9e07d.jpg']
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/['https://i.chzbgr.com/thumb1200/21894149/hF98875DB/workplace-stories-askreddit-ask-reddit-reddit-thread-haunting-dining-dinner-fine-dining-going-out']
+Not Found: /products/['https://cupofjo.com/wp-content/uploads/2023/09/french-bulldog.jpeg']
+Not Found: /products/['https://s.yimg.com/ny/api/res/1.2/OOKIAeElDRSYKpjdu67sWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/ap.org/2af7ed95bbfc2276d8e7e711edae01a4']
+Not Found: /products/['https://icdn.lenta.ru/images/2023/08/22/11/20230822115545658/share_1c8f79c4fc51a122d9ce26c9e6d9017e.jpeg']
+Not Found: /products/['https://i.chzbgr.com/original/21930245/hA9453B55/take-out-restaurant-customer-service-service-service-industry-waiter-waitress-fast-food-dining-food']
+Not Found: /products/['https://i.blogs.es/78c918/dap2/840_560.jpg']
+Not Found: /products/['https://video-images.vice.com/articles/64ed12631e6a5796d1d44f8a/lede/1693259753160-ninjawoodfire4.png
+Not Found: /products/['https://imageio.forbes.com/specials-images/imageserve/65007c0d9c1ba1ee6c827137/0x0.jpg
+Not Found: /products/['https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1cf285d5eb83d24ca8393a0c62a9e07d.jpg']
+Not Found: /products/['https://video-images.vice.com/articles/64fb6b4d1e6a5796d1d6751b/lede/1694198896914-letseat1.png
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/['https://i.blogs.es/78c918/dap2/840_560.jpg']
+Not Found: /products/['https://cupofjo.com/wp-content/uploads/2023/09/french-bulldog.jpeg']
+Not Found: /products/['https://icdn.lenta.ru/images/2023/08/22/11/20230822115545658/share_1c8f79c4fc51a122d9ce26c9e6d9017e.jpeg']
+Not Found: /products/['https://s.yimg.com/ny/api/res/1.2/OOKIAeElDRSYKpjdu67sWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/ap.org/2af7ed95bbfc2276d8e7e711edae01a4']
+Not Found: /products/['https://i.chzbgr.com/original/21930245/hA9453B55/take-out-restaurant-customer-service-service-service-industry-waiter-waitress-fast-food-dining-food']
+Not Found: /products/['https://i.chzbgr.com/thumb1200/21894149/hF98875DB/workplace-stories-askreddit-ask-reddit-reddit-thread-haunting-dining-dinner-fine-dining-going-out']
+Not Found: /products/['https://video-images.vice.com/articles/64ed12631e6a5796d1d44f8a/lede/1693259753160-ninjawoodfire4.png
+Not Found: /products/['https://video-images.vice.com/articles/64fb6b4d1e6a5796d1d6751b/lede/1694198896914-letseat1.png
+Not Found: /products/['https://imagez.tmz.com/image/60/16by9/2023/08/22/6070ee3c8add4af3a3699ff29b2465ec_xl.jpg']
+Not Found: /products/['https://imageio.forbes.com/specials-images/imageserve/65007c0d9c1ba1ee6c827137/0x0.jpg
+Not Found: /products/['https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1cf285d5eb83d24ca8393a0c62a9e07d.jpg']
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /favicon.ico
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Not Found: /products/submit_review.php
+Watching for file changes with StatReloader
+Not Found: /products/submit_review.php
+Not Found: /products/submit_review.php
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing or incorrect.): /products/review_send
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/review
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: products_review.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 36, in review
+    return render(request, 'products/review.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 314, in render
+    if match:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 284, in __bool__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: products_review.user_id
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/review_send
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 151, in review_send
+    review = Review(user=user, grade=rating, text_review=review_text)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Review() got an unexpected keyword argument 'user'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Not Found: /orders/orders.html
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Starting new HTTPS connection (1): newsapi.org:443
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Starting new HTTPS connection (1): newsapi.org:443
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Starting new HTTPS connection (1): newsapi.org:443
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Watching for file changes with StatReloader
+Internal Server Error: /admin/products/term/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 100, in __init__
+    self.get_results(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\admin\views\main.py", line 235, in get_results
+    result_count = paginator.count
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: products_newsarticle.img
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 92, in news
+    new_article.save()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: products_newsarticle.img
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 73, in news
+    f = a[i]
+IndexError: list index out of range
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 36, in term
+    'terms': Term.objects.all(),
+NameError: name 'Term' is not defined
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 36, in term
+    'terms': Term.objects.all(),
+NameError: name 'Term' is not defined
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+E:\pizzeria-server\pizzeria\products\migrations\0001_initial.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: products_term
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 38, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: products_term
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /products/ôîòî_ñîòðóäíèêà3.jpg
+Not Found: /products/ôîòî_ñîòðóäíèêà2.jpg
+Watching for file changes with StatReloader
+Not Found: /products/ôîòî_ñîòðóäíèêà3.jpg
+Not Found: /products/ôîòî_ñîòðóäíèêà2.jpg
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /media/sheff_pizza.jpg
+Watching for file changes with StatReloader
+Not Found: /users/profile/orders/orders.html
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/review_send
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 186, in review_send
+    username = request.POST['username']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'username'
+Watching for file changes with StatReloader
+Internal Server Error: /products/review_send
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 186, in review_send
+    username = request.POST['username']
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'username'
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/review_send
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 186, in review_send
+    username = request.User.username
+AttributeError: 'WSGIRequest' object has no attribute 'User'
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Watching for file changes with StatReloader
+Not Found: /users/profile/orders/orders.html
+Watching for file changes with StatReloader
+Not Found: /users/orders/order-create.html
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /products/pizza.jpg
+Not Found: /products/pizza_video.mp4
+Not Found: /products/pizza_theme.mp3
+Watching for file changes with StatReloader
+Not Found: /products/pizza.jpg
+Not Found: /products/pizza_theme.mp3
+Not Found: /products/pizza_video.mp4
+Watching for file changes with StatReloader
+Not Found: /products/pizza.jpg
+Not Found: /products/pizza.jpg
+Not Found: /favicon.ico
+Not Found: /products/menu.pdf
+Not Found: /products/pizza.jpg
+Not Found: /menu
+Not Found: /about
+Not Found: /products/pizza.jpg
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Not Found: /products/pizza.jpg
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Not Found: /products/pizza.jpg
+Not Found: /products/pizza.jpg
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /users/orders/order-create.html
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 127, in news
+    f = a[i]
+IndexError: list index out of range
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /products/document.pdf
+Not Found: /products/document.pdf
+Watching for file changes with StatReloader
+Not Found: /products/document.pdf
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): newsapi.org:443
+https://newsapi.org:443 "GET /v2/everything?q=pizza&apiKey=20d95eef27454a9e990d505cb55f92cf HTTP/1.1" 200 None
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/news
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 163, in news
+    return render(request, 'products/news.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'news_details' with arguments '('Lo chef pizzaiolo Capuano propone la sua “pizza contemporanea” con l’anguria e viene sommerso dalle critiche. Il video della “ricetta”',)' not found. 1 pattern(s) tried: ['products/news_details\\Z']
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /products//
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /orders
+Not Found: /profile
+Not Found: /auth
+Watching for file changes with StatReloader
+Not Found: /profile
+Not Found: /profile/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader

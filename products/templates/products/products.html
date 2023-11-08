@@ -1,0 +1,685 @@
+{#{% extends 'products/base.html' %}#}
+{#{% load static %}#}
+{#{% block css %}#}
+{#    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">#}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#    <footer class="py-5 bg-dark">#}
+{#        <div class="container">#}
+{#            <p class="m-0 text-center text-white">Copyright &copy; Store 2023</p>#}
+{#        </div><!-- /.container -->#}
+{#    </footer>#}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#    <div class="container">#}
+{#        <div class="row">#}
+{#            <div class="col-lg-3">#}
+{#                <h1 class="my-4">Store</h1>#}
+{#                <div class="list-group">#}
+{#                    {% for category in categories %}#}
+{#                        <a href="#" class="list-group-item">{{ category.name }}</a>#}
+{#                    {% endfor %}#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <form method="GET" action="">#}
+{#                {{ search_form }}#}
+{#                <button type="submit">Поиск</button>#}
+{#            </form>#}
+{##}
+{#            <div class="row">#}
+{#                {% for product in products %}#}
+{#                    <div class="col-lg-4 col-md-6 mb-4">#}
+{#                        <div class="card h-100">#}
+{#                            <a href="#">#}
+{#                                <img class="card-img-top"#}
+{#                                     src={{ product.image.url }}#}
+{#                                     alt="">#}
+{#                            </a>#}
+{#                            <div class="card-body">#}
+{#                                <h4 class="card-title">#}
+{#                                    <a href="#">{{ product.name }}</a>#}
+{#                                </h4>#}
+{#                                <h5>{{ el.price }} р.</h5>#}
+{#                                <p class="card-text">{{ product.price }}</p>#}
+{#                            </div>#}
+{#                            <div class="card-footer text-center">#}
+{#                                <a class="btn btn-outline-success" href="{% url 'products:basket_add' product.id %}">#}
+{#                                    Отправить в корзину#}
+{#                                </a>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+{##}
+{#                <nav aria-label="Page navigation example">#}
+{#                    <ul class="pagination justify-content-center">#}
+{#                        <li class="page-item disabled">#}
+{#                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>#}
+{#                        </li>#}
+{#                        <li class="page-item"><a class="page-link" href="#">1</a></li>#}
+{#                        <li class="page-item"><a class="page-link" href="#">2</a></li>#}
+{#                        <li class="page-item"><a class="page-link" href="#">3</a></li>#}
+{#                        <li class="page-item">#}
+{#                            <a class="page-link" href="#">Next</a>#}
+{#                        </li>#}
+{#                    </ul>#}
+{#                </nav>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}
+
+{#{% extends 'products/base.html' %}#}
+{#{% load static %}#}
+{#{% block css %}#}
+{#    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">#}
+{#    .button {#}
+{#            cursor: pointer; /* Изменение курсора на стрелку, обозначающую, что элемент является интерактивным */#}
+{#    }#}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#    <footer class="py-5 bg-dark">#}
+{#        <div class="container">#}
+{#            <p class="m-0 text-center text-white">Copyright &copy; Store 2023</p>#}
+{#        </div>#}
+{#    </footer>#}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#    <div class="container">#}
+{#        <div class="row mb-4">#}
+{#            <form method="GET" action="">#}
+{#                <div class="input-group">#}
+{#                    {{ search_form.search_query }}#}
+{#                    <div class="input-group-append">#}
+{#                        <button class="btn btn-outline-secondary" type="submit">Поиск</button>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </form>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#            <div class="col-lg-3">#}
+{#                <h1 class="my-4">Store</h1>#}
+{#                <div class="list-group">#}
+{#                    {% for category in categories %}#}
+{#                        <a href="{% url 'products:contacts' %}" class="list-group-item">{{ category.name }}</a>#}
+{#                    {% endfor %}#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                {% for product in products %}#}
+{#                    <div class="card">#}
+{#                        <a href="#">#}
+{#                            <img src="{{ product.image.url }}" alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">{{ product.name }}</a>#}
+{#                            </h4>#}
+{#                            <h4 class="card-title">#}
+{#                                <a>{{ product.description }}</a>#}
+{#                            </h4>#}
+{#                            <h5>{{ product.price }} р.</h5>#}
+{#                        </div>#}
+{#                        <div class="card-footer text-center">#}
+{#                            <a class="btn btn-outline-success" href="{% url 'products:basket_add' product.id %}">#}
+{#                                Отправить в корзину#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}
+
+{#{% extends 'products/base.html' %}#}
+{#{% load static %}#}
+{#{% block css %}#}
+{#    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">#}
+{#     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">#}
+{#    <style>#}
+{#        .button {#}
+{#            cursor: pointer; /* Change the cursor to a pointer indicating that the element is interactive */#}
+{#        }#}
+{##}
+{#        .row {#}
+{#            display: grid;#}
+{#            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));#}
+{#            grid-gap: 20px;#}
+{#        }#}
+{##}
+{#        .card {#}
+{#            display: grid;#}
+{#            grid-template-rows: auto 1fr auto;#}
+{#            border: 1px solid #ccc;#}
+{#        }#}
+{##}
+{#        .card img {#}
+{#            width: 100%;#}
+{#            height: auto;#}
+{#        }#}
+{##}
+{#        .card-body {#}
+{#            padding: 10px;#}
+{#        }#}
+{##}
+{#        .card-title {#}
+{#            margin-top: 0;#}
+{#        }#}
+{##}
+{#        .card-footer {#}
+{#            padding: 10px;#}
+{#            text-align: center;#}
+{#        }#}
+{#    </style>#}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#    <footer class="py-5 bg-dark">#}
+{#        <div class="container">#}
+{#            <p class="m-0 text-center text-white">Copyright &copy; Store 2023</p>#}
+{#        </div>#}
+{#    </footer>#}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#    <div class="container">#}
+{#        <div class="row mb-4">#}
+{#            <form method="GET" action="">#}
+{#                <div class="input-group">#}
+{#                    {{ search_form.search_query }}#}
+{#                    <div class="input-group-append">#}
+{#                        <button class="btn btn-outline-secondary" type="submit">Поиск</button>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </form>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#            <div class="col-lg-3">#}
+{#                <h1 class="my-4">Store</h1>#}
+{#                <div class="list-group">#}
+{#                    {% for category in categories %}#}
+{#                        <a href="{% url 'products:contacts' %}" class="list-group-item">{{ category.name }}</a>#}
+{#                    {% endfor %}#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                {% for product in products %}#}
+{#                    <div class="card">#}
+{#                        <a href="#">#}
+{#                            <img src="{{ product.image.url }}" alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">{{ product.name }}</a>#}
+{#                            </h4>#}
+{#                            <p class="card-title">#}
+{#                                {{ product.description }}#}
+{#                            </p>#}
+{#                            <h5>{{ product.price }} р.</h5>#}
+{#                        </div>#}
+{#                        <div class="card-footer">#}
+{#                            <a class="btn btn-outline-success" href="{% url 'products:basket_add' product.id %}">#}
+{#                                Отправить в корзину#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}
+
+
+{#{% extends 'products/base.html' %}#}
+{#{% load static %}#}
+{#{% block css %}#}
+{#    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">#}
+{#     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">#}
+{#    <style>#}
+{#        .button {#}
+{#            cursor: pointer; /* Change the cursor to a pointer indicating that the element is interactive */#}
+{#        }#}
+{##}
+{#        .row {#}
+{#            display: flex;#}
+{#            flex-wrap: wrap;#}
+{#        }#}
+{##}
+{#        .card {#}
+{#            width: 30%;#}
+{#            box-sizing: border-box;#}
+{#            padding: 20px;#}
+{#            margin: 10px;#}
+{#            border: 1px solid #ccc;#}
+{#        }#}
+{##}
+{#        .card img {#}
+{#            width: 100%;#}
+{#            height: auto;#}
+{#        }#}
+{##}
+{#        .card-body {#}
+{#            padding: 10px;#}
+{#        }#}
+{##}
+{#        .card-title {#}
+{#            margin-top: 0;#}
+{#        }#}
+{##}
+{#        .card-footer {#}
+{#            padding: 10px;#}
+{#            text-align: center;#}
+{#        }#}
+{#    </style>#}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#    <footer class="py-5 bg-dark">#}
+{#        <div class="container">#}
+{#            <p class="m-0 text-center text-white">Copyright &copy; Store 2023</p>#}
+{#        </div>#}
+{#    </footer>#}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#    <div class="container">#}
+{#        <div class="row mb-4">#}
+{#            <form method="GET" action="">#}
+{#                <div class="input-group">#}
+{#                    {{ search_form.search_query }}#}
+{#                    <div class="input-group-append">#}
+{#                        <button class="btn btn-outline-secondary" type="submit">Поиск</button>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </form>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#            <div class="col-lg-3">#}
+{#                <h1 class="my-4">Store</h1>#}
+{#                <div class="list-group">#}
+{#                    {% for category in categories %}#}
+{#                        <a href="{% url 'products:contacts' %}" class="list-group-item">{{ category.name }}</a>#}
+{#                    {% endfor %}#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                {% for product in products %}#}
+{#                    <div class="card">#}
+{#                        <a href="#">#}
+{#                            <img src="{{ product.image.url }}" alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">{{ product.name }}</a>#}
+{#                            </h4>#}
+{#                            <p class="card-title">#}
+{#                                {{ product.description }}#}
+{#                            </p>#}
+{#                            <h5>{{ product.price }} р.</h5>#}
+{#                        </div>#}
+{#                        <div class="card-footer">#}
+{#                            <a class="btn btn-outline-success" href="{% url 'products:basket_add' product.id %}">#}
+{#                                Отправить в корзину#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}
+
+{% extends 'products/base.html' %}
+{% load static %}
+{% block css %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">
+{#    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">#}
+{#    <style>#}
+{#        .button {#}
+{#            cursor: pointer; /* Change the cursor to a pointer indicating that the element is interactive */#}
+{#        }#}
+{##}
+{#        .row {#}
+{#            display: flex;#}
+{#            flex-wrap: wrap;#}
+{#            margin: 0 -10px; /* Убираем внешние отступы у ряда */#}
+{#        }#}
+{##}
+{#        .card {#}
+{#            width: 30%;#}
+{#            box-sizing: border-box;#}
+{#            padding: 10px; /* Уменьшил внутренние отступы карточки */#}
+{#            margin: 10px; /* Убрал внешние отступы карточки */#}
+{#            border: 1px solid #ccc;#}
+{#        }#}
+{##}
+{#        .card img {#}
+{#            width: 100%;#}
+{#            height: auto;#}
+{#        }#}
+{##}
+{#        .card-body {#}
+{#            padding: 10px;#}
+{#        }#}
+{##}
+{#        .card-title {#}
+{#            margin-top: 0;#}
+{#        }#}
+{##}
+{#        .card-footer {#}
+{#            padding: 10px;#}
+{#            text-align: center;#}
+{#        }#}
+{##}
+{#        .search-container {#}
+{#            margin-top: 40px; /* Устанавливаем отступ сверху */#}
+{#        }#}
+{#    </style>#}
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 20px; /* расстояние между товарами */
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: contain;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .product-image:hover {
+            transform: translateY(10px);
+        }
+
+        .product-name {
+          font-weight: bold;
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+
+        .product-description {
+          color: #666;
+          margin-bottom: auto;
+        }
+
+        .product-price {
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: auto;
+        }
+
+        .product-button {
+            display: inline-block;
+            margin-top: auto;
+            padding: 10px 20px;
+            background-color: #e0b776;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+
+        .product-button:hover {
+            background-color: #ff621e;
+        }
+
+        .product-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .category-list {
+            display: flex;
+            gap: 20px; /* Расстояние между категориями */
+            font-size: 18px; /* Увеличение размера шрифта */
+        }
+
+        .category-list a {
+            text-decoration: none;
+            color: #333; /* Цвет текста категории */
+            transition: color 0.3s; /* Плавное изменение цвета при наведении */
+            padding: 10px; /* Добавление отступов для категорий */
+        }
+
+        .category-list a:hover {
+            color: #ff6600; /* Изменение цвета при наведении на оранжевый */
+        }
+
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .input-group {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .search-input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-right: none;
+            border-radius: 4px 0 0 4px;
+            width: 300px;
+        }
+
+        .search-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+
+        .search-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+{% endblock %}
+
+{% block footer %}
+    <footer class="footer">
+        <div class="container">
+            <p class="m-0">Copyright &copy; Store 2023</p>
+        </div>
+    </footer>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div>
+            <form method="GET" action="">
+                <div class="input-group">
+                    <input type="text" name="search_query" class="search-input">
+                    <button type="submit" class="search-button">Поиск</button>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div>
+                <h1>Каталог</h1>
+                <div class="category-list">
+                    {% for category in categories %}
+                        <a href="{% url 'products:contacts' %}">{{ category.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-9"> {# Добавляем дополнительный столбец для продуктов #}
+                <div class="grid-container">
+                    {% for product in products %}
+{#                        <div class="product-card">#}
+{#                            <a href="#">#}
+{#                                <img src="{{ product.image.url }}" alt="">#}
+{#                            </a>#}
+{#                            <div class="card-body">#}
+{#                                <h4 class="card-title">#}
+{#                                    <a href="#">{{ product.name }}</a>#}
+{#                                </h4>#}
+{#                                <p class="card-title">#}
+{#                                    {{ product.description }}#}
+{#                                </p>#}
+{#                                <h5>{{ product.price }} р.</h5>#}
+{#                            </div>#}
+{#                            <div class="card-footer">#}
+{#                                <a class="btn btn-outline-success" href="{% url 'products:basket_add' product.id %}">#}
+{#                                    Отправить в корзину#}
+{#                                </a>#}
+{#                            </div>#}
+{#                        </div>#}
+                        <div class="product-card">
+                            <img src="{{ product.image.url }}" alt="Product Image" class="product-image">
+                            <h3 class="product-name">{{ product.name }}</h3>
+                            <p class="product-description">{{ product.description }}</p>
+                            <div class="product-details">
+                                <div class="product-price">{{ product.price }} руб.</div>
+                                <a class="product-button" href="{% url 'products:basket_add' product.id %}">
+                                    Отправить в корзину
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{#{% extends 'products/base.html' %}#}
+{#{% load static %}#}
+{#{% block css %}#}
+{#    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">#}
+    {# <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet"> #}
+{#    <style>#}
+{#        .button {#}
+{#            cursor: pointer; /* Change the cursor to a pointer indicating that the element is interactive */#}
+{#        }#}
+{##}
+{#        .row {#}
+{#            display: flex;#}
+{#            flex-wrap: wrap;#}
+{#            margin: -10px;#}
+{#        }#}
+{##}
+{#        .card {#}
+{#            width: 33.33%;#}
+{#            box-sizing: border-box;#}
+{#            padding: 20px;#}
+{#            border: 1px solid #ccc;#}
+{#            margin: 10px;#}
+{#        }#}
+{##}
+{#        .card img {#}
+{#            width: 100%;#}
+{#            height: auto;#}
+{#        }#}
+{##}
+{#        .card-body {#}
+{#            padding: 10px;#}
+{#        }#}
+{##}
+{#        .card-title {#}
+{#            margin-top: 0;#}
+{#        }#}
+{##}
+{#        .card-footer {#}
+{#            padding: 10px;#}
+{#            text-align: center;#}
+{#        }#}
+{##}
+{#        .container {#}
+{#            display: flex;#}
+{#            flex-direction: column;#}
+{#            align-items: center;#}
+{#        }#}
+{##}
+{#        .list-group-item {#}
+{#            width: 100%;#}
+{#            white-space: pre-wrap;#}
+{#        }#}
+{##}
+{#        .input-group {#}
+{#            justify-content: center;#}
+{#            margin-bottom: 1rem;#}
+{#        }#}
+{#    </style>#}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#    <footer class="py-5 bg-dark">#}
+{#        <div class="container">#}
+{#            <p class="m-0 text-center text-white">Copyright &copy; Store 2023</p>#}
+{#        </div>#}
+{#    </footer>#}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#    <div class="container">#}
+{#        <div class="row mb-4">#}
+{#            <form method="GET" action="" class="input-group">#}
+{#                <div class="input-group-prepend">#}
+{#                    <button class="btn btn-outline-secondary" type="submit">Поиск</button>#}
+{#                </div>#}
+{#                {{ search_form.search_query }}#}
+{#            </form>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#            <div class="col-lg-3">#}
+{#                <h1 class="my-4">Store</h1>#}
+{#                <div class="list-group">#}
+{#                    {% for category in categories %}#}
+{#                        <a href="{% url 'products:contacts' %}" class="list-group-item">{{ category.name }}</a>#}
+{#                    {% endfor %}#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                {% for product in products %}#}
+{#                    <div class="card">#}
+{#                        <a href="#">#}
+{#                            <img src="{{ product.image.url }}" alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">{{ product.name }}</a>#}
+{#                            </h4>#}
+{#                            <p class="card-title">#}
+{#                                {{ product.description }}#}
+{#                            </p>#}
+{#                            <h5>{{ product.price }} р.</h5>#}
+{#                        </div>#}
+{#                        <div class="card-footer">#}
+{#                            <a class="btn btn-outline-success" href="{% url 'products:basket_add' product.id %}">#}
+{#                                Отправить в корзину#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}

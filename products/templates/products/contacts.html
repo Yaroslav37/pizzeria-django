@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <style>
+        {#/* Стили для оформления страницы */#}
+        {#body {#}
+        {#    font-family: Arial, sans-serif;#}
+        {#    margin: 20px;#}
+        {#}#}
+        {#h1 {#}
+        {#    text-align: center;#}
+        {#}#}
+        {#.contact-card {#}
+        {#    border: 1px solid #ccc;#}
+        {#    margin-bottom: 20px;#}
+        {#    padding: 10px;#}
+        {#    overflow: hidden;#}
+        {#}#}
+        {#.contact-photo {#}
+        {#    float: left;#}
+        {#    margin-right: 20px;#}
+        {#}#}
+        {##}
+        {#.contact-container {#}
+        {#    display: flex;#}
+        {#    flex-wrap: wrap;#}
+        {#    gap: 20px; /* Расстояние между карточками */#}
+        {#}#}
+        {##}
+        {#.contact-card {#}
+        {#    display: flex;#}
+        {#    width: 300px; /* Ширина каждой карточки сотрудника */#}
+        {#    border: 1px solid #ccc;#}
+        {#    border-radius: 5px;#}
+        {#    padding: 10px;#}
+        {#}#}
+        {##}
+        {#.contact-photo {#}
+        {#    flex: 0 0 100px; /* Жесткий размер фото (ширина 100px) */#}
+        {#}#}
+        {##}
+        {#.contact-photo img {#}
+        {#    max-width: 100%; /* Соблюдение максимальной ширины фото */#}
+        {#    height: auto;#}
+        {#}#}
+        {##}
+        {#.contact-info {#}
+        {#    flex: 1; /* Растягиваем остаток контейнера по горизонтали */#}
+        {#    padding-left: 20px;#}
+        {#}#}
+        {##}
+        {#/* Дополнительные стили для заголовков и текста */#}
+        {#h2 {#}
+        {#    font-size: 18px;#}
+        {#    margin: 0;#}
+        {#}#}
+        {##}
+        {#p {#}
+        {#    margin: 5px 0;#}
+        {#}#}
+
+        .employee {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .employee img {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        .employee-info {
+            flex: 1;
+        }
+
+        .employee-info h2,
+        .employee-info h3,
+        .employee-info p {
+            margin: 0;
+        }
+
+        .employee-info a {
+            text-decoration: none;
+            color: #0073e6;
+        }
+
+        .vacancy {
+            float: left;
+            width: 40%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .vacancy h2 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        .vacancy p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Наши Работники</h1>
+
+        <div class="employee">
+            <img src="https://media.istockphoto.com/id/1294803759/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%83%D0%BB%D1%8B%D0%B1%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%89%D0%B8%D0%B9-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA-%D0%B2-%D1%80%D1%83%D0%BA%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D0%BD%D0%B0-%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BA%D0%B5-%D0%B1%D0%BB%D0%BE%D0%B3%D0%B5%D1%80-%D0%B4%D0%B5%D0%BB%D0%B0%D1%8E%D1%89%D0%B8%D0%B9.jpg?s=170667a&w=0&k=20&c=dKeeKB0KJwxRHB2Bli1Yxjb3K5tt8_DatZHFcfcFXPQ=" alt="Фото Администратора">
+            <div class="employee-info">
+                <h2>Ярослав</h2>
+                <h3>Администратор</h3>
+                <p>Телефон: <a href="tel:+375333316030">+375 (33) 331-60-30</a></p>
+                <p>Email: <a href="mailto:adminDC@gmail.com">adminDC@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="employee">
+            <img src="https://img.championat.com/s/735x490/news/big/k/v/aleksandr-s1mple-kostylev_1673781710132341752.jpg" alt="Фото Разработчика">
+            <div class="employee-info">
+                <h2>Михаил</h2>
+                <h3>Разработчик</h3>
+                <p>Телефон: <a href="tel:+375333316030">+375 (29) 202-20-19</a></p>
+                <p>Email: <a href="mailto:developerDC@gmail.com">developerDC@gmail.com</a></p>
+            </div>
+        </div>
+        <hr>
+    </div>
+{#    <h1>Контакты</h1>#}
+{##}
+{#    <div class="contact-card">#}
+{#        <div class="contact-photo">#}
+{#            <img src="https://www.vokrug.tv/pic/product/6/3/f/8/63f8416bf4ec3f475fc3f1170a32436a.jpeg" alt="Фото сотрудника 1" width="100">#}
+{#        </div>#}
+{#        <div class="contact-info">#}
+{#            <h2>Александр Сергеев</h2>#}
+{#            <p>Директор по продажам</p>#}
+{#            <p>Телефон: +375 (29) 123-4567</p>#}
+{#            <p>Почта: sashadep@gmail.com</p>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#    <div class="contact-card">#}
+{#        <div class="contact-photo">#}
+{#            <img src="https://www.meme-arsenal.com/memes/8e93ba94f8a9ca8944cb5f2cee1f92f5.jpg" alt="Фото сотрудника 2" width="100">#}
+{#        </div>#}
+{#        <div class="contact-info">#}
+{#            <h2>Владимир Селиванов</h2>#}
+{#            <p>Курьер</p>#}
+{#            <p>Телефон: +375 (29) 111-1111</p>#}
+{#            <p>Почта: VAVAN@mail.ru</p>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#    <div class="contact-card">#}
+{#        <div class="contact-photo">#}
+{#            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYqhm3mgKnWuMkPUPrs_hXpVtUl-oVomSv1nUGddHUaaOeOnAppjqTsaB4hOA58sIEeI&usqp=CAU" alt="Фото сотрудника 3" width="100">#}
+{#        </div>#}
+{#        <div class="contact-info">#}
+{#            <h2>Александр Костылев</h2>#}
+{#            <p>Дегустатор</p>#}
+{#            <p>Телефон: +375 (29) 222-2222</p>#}
+{#            <p>Почта: somple@gmail.com</p>#}
+{#        </div>#}
+{#    </div>#}
+
+</body>
+</html>

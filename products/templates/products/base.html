@@ -1,0 +1,232 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="pizza">
+    <meta name="author" content="Django-pizza">
+    <link rel="icon" type="image/x-icon" href="{% static 'vendor/img/icon.png' %}">
+
+    <title>{{ title }}</title>
+    <style>
+            :root{
+              --color-1: #ffffff;
+            }
+            body{
+                line-height: 1.5;
+                font-family: sans-serif;
+                background-color: white;
+                color: black;
+            }
+            *{
+                box-sizing: border-box;
+                margin:0;
+                padding:0;
+            }
+            a{
+                text-decoration: none;
+            }
+            ul{
+                list-style: none;
+            }
+            .container{
+                max-width: 1170px;
+                margin: auto;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .align-items-center{
+                align-items: center;
+            }
+            .justify-content-between{
+                justify-content: space-between;
+            }
+            /*header*/
+            .header{
+                background-color: var(--color-1);
+                padding:12px 0;
+                position: relative;
+            }
+            .header .logo,
+            .header .nav{
+                padding:0 15px;
+            }
+            .header .logo a{
+                font-size: 30px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-right: 35px;
+            }
+            .header .nav ul li{
+                display: inline-block;
+                margin-left: 40px;
+            }
+            .header .nav ul li a{
+                display: block;
+                font-size: 16px;
+                padding:10px 0;
+                color: black;
+                text-transform: capitalize;
+                transition: all 0.1s ease;
+            }
+            .header .nav ul li a:hover,
+            .header .nav ul li a.active{
+                color: #c09101;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .header #nav-check{
+                position: absolute;
+                opacity:0;
+                pointer-events: none;
+            }
+            .nav-toggler{
+                height: 34px;
+                width: 44px;
+                background-color: #ffffff;
+                border-radius: 4px;
+                cursor: pointer;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+            }
+            .nav-toggler span{
+                display: block;
+                height: 2px;
+                width: 20px;
+                background-color: var(--color-1);
+                position: relative;
+            }
+            .nav-toggler span::before,
+            .nav-toggler span::after{
+               content: '';
+               position: absolute;
+               width: 100%;
+               height: 100%;
+               background-color: var(--color-1);
+               left:0;
+            }
+            .nav-toggler span::before{
+                top: -6px;
+            }
+            .nav-toggler span::after{
+                top: 6px;
+            }
+            @media(max-width: 991px){
+                .nav-toggler{
+                    display: flex;
+                }
+                .header .nav{
+                    position: absolute;
+                    left:0;
+                    top:100%;
+                    width: 100%;
+                    background-color: var(--color-1);
+                    border-top: 1px solid rgba(255,255,255,0.2);
+                    opacity:0;
+                    visibility: hidden;
+                }
+                .header .nav ul li{
+                    display: block;
+                    margin:0;
+                }
+
+                .header #nav-check:checked ~ .nav{
+                   opacity: 1;
+                   visibility: visible;
+                }
+                .header #nav-check:focus ~ .nav-toggler{
+                    box-shadow: 0 0 15px #000000;
+                }
+                .header #nav-check:checked ~ .nav-toggler span{
+                    background-color: transparent;
+                }
+                .header #nav-check:checked ~ .nav-toggler span::before{
+                    top:0;
+                    transform: rotate(45deg);
+                }
+                .header #nav-check:checked ~ .nav-toggler span::after{
+                    top:0;
+                    transform: rotate(-45deg);
+                }
+            }
+
+            @font-face {
+                font-family: 'FontOfKindness';
+                src: url('{% static 'vendor/img/font/FontOfKindness2.0-Regular.otf'%}') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            .custom-font {
+                font-family: 'FontOfKindness', sans-serif;
+                font-size: 64px;
+                text-align: center;
+                color: #000000;
+                letter-spacing: 20px; /* кернинг */
+            }
+    </style>
+
+    {% block css %}
+    {% endblock %}
+
+</head>
+
+<body>
+     <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <input type="checkbox" id="nav-check">
+               <label for="nav-check" class="nav-toggler">
+                  <span></span>
+               </label>
+               <nav class="nav">
+                  <div class="logo">
+                    <a href="{% url 'index' %}">
+                        <p class="custom-font">Django-Pizza</p>
+{#                        <img src="{% static 'vendor/img/djlogo.webp' %}" alt="Логотип Django-Pizza" width="200">#}
+                    </a>
+                  <ul>
+                     <li><a href="{% url 'products:index' %}" class="active">Каталог</a></li>
+                     <li><a href="{% url 'products:about' %}">О компании</a></li>
+                     <li><a href="{% url 'products:news' %}">Новости</a></li>
+                     <li><a href="{% url 'products:term' %}">Словарь</a></li>
+                     <li><a href="{% url 'products:contacts' %}">Контакты</a></li>
+                     <li><a href="{% url 'products:confidentiality' %}">Конфиденциальность</a></li>
+                     <li><a href="{% url 'products:review' %}">Отзывы</a></li>
+                     <li><a href="{% url 'products:promo' %}">Промокоды</a></li>
+                     <li><a href="{% url 'products:vacancies' %}">Вакансии</a></li>
+                     <li><a href="{% url 'products:test' %}">Тест</a></li>
+                     <li><a href="{% url 'products:test2' %}">Тест2</a></li>
+                     <li><a href="{% url 'products:test3' %}">Тест3</a></li>
+                  </ul>
+               </nav>
+            </div>
+        </div>
+     </header>
+
+
+
+<!-- Page Content -->
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{#<!-- Bootstrap core JavaScript -->#}
+{#<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>#}
+{#<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>#}
+{#<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"#}
+{#        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"#}
+{#        crossorigin="anonymous"></script>#}
+
+<!-- FontAwesome script -->
+{#<script src="{% static 'vendor/fontawesome/fontawesome-icons.js' %}" crossorigin="anonymous"></script>#}
+
+</body>
+
+</html>

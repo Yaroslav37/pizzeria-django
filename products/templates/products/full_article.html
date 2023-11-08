@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример статьи</title>
+    <style>
+        /* Стили для контейнера статьи */
+        .article {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Стили для изображения в статье */
+        .article img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Стили для заголовка статьи */
+        .article h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Стили для описания статьи */
+        .article p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Стили для даты публикации */
+        .article .publish-date {
+            font-size: 14px;
+            color: #888;
+        }
+
+        #description::first-letter {
+            font-size: 150%;
+            font-weight: bold;
+            color: #ff0000;
+        }
+
+        .description::first-line {
+            font-size: 120%;
+            font-style: inherit;
+            color: #16181b;
+        }
+
+        /* Добавление контекста в начале и конце фрагмента текста */
+        .context-paragraph::before {
+            content: "Начало контекста: ";
+            font-weight: bold;
+        }
+
+        .context-paragraph::after {
+            content: " Конец контекста.";
+            font-style: italic;
+        }
+
+        ::selection {
+            background-color: red; /* Цвет фона выделенного текста */
+            color: #fff; /* Цвет текста выделенного текста */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="article">
+        <h1>{{ article.first.title}}</h1>
+        <img src="{{ article.first.img }}" alt="Изображение статьи">
+        <p class="context-paragraph" id="description">
+            {{ article.first.description }}
+        </p>
+        <p class="publish-date">Дата и время: {{ article.first.timestamp|date:"F j, Y H:i:s" }}</p>
+    </div>
+</body>
+</html>

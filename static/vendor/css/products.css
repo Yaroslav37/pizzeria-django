@@ -1,0 +1,65 @@
+body {
+    background: white;
+}
+
+/*!* Ваш CSS файл (products.css) *!*/
+
+/*!* Определение сетки с тремя колонками и фиксированным размером для каждой ячейки *!*/
+/*.container {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr); !* Три равные колонки *!*/
+/*    grid-gap: 20px; !* Расстояние между элементами *!*/
+/*}*/
+
+/*!* Стили для каждой ячейки (блока товара/услуги) *!*/
+/*.card {*/
+/*    border: 1px solid #ddd;*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*    min-height: 300px; !* Фиксированная высота каждой ячейки *!*/
+/*}*/
+
+/*.card img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*.card h4 {*/
+/*    font-size: 18px;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.card h5 {*/
+/*    color: green;*/
+/*}*/
+
+/*.card a.btn {*/
+/*    display: block;*/
+/*    margin-top: 10px;*/
+/*    background-color: #3498db;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    padding: 5px 10px;*/
+/*    border-radius: 5px;*/
+/*    transition: background-color 0.3s;*/
+/*}*/
+
+/*.card a.btn:hover {*/
+/*    background-color: #2980b9;*/
+/*}*/
+
+/*!* Стили для боковой панели с категориями *!*/
+/*.list-group {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.list-group-item {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.products-grid {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr); !* Три блока в одной строке *!*/
+/*    gap: 20px; !* Расстояние между блоками *!*/
+/*}*/

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Промокоды и купоны</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+
+        .promocode-list {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .active-promocodes {
+            margin-bottom: 20px;
+        }
+        .archived-promocodes {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .promocode-item {
+            margin-bottom: 10px;
+        }
+
+        /* Стили для активных промокодов */
+        .active-promocodes h2 {
+            color: #009900;
+        }
+
+        /* Стили для архивных промокодов */
+        .archived-promocodes h2 {
+            color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Промокоды и купоны</h1>
+
+    <div class="promocode-list active-promocodes">
+        <h2>Действующие промокоды</h2>
+        <ul>
+            <li class="promocode-item">Промокод 1: Скидка 10%</li>
+            <li class="promocode-item">Промокод 2: Бесплатная доставка</li>
+            <li class="promocode-item">Промокод 3: Скидка 20% на товары категории "Одежда"</li>
+        </ul>
+    </div>
+
+    <div class="promocode-list archived-promocodes">
+        <h2>Архивные промокоды</h2>
+        <ul>
+            <li class="promocode-item">Промокод 4: Скидка 15% на товары категории "Электроника" (истек)</li>
+            <li class="promocode-item">Промокод 5: Бонус 500 рублей за каждую покупку (завершен)</li>
+        </ul>
+    </div>
+</body>
+</html>

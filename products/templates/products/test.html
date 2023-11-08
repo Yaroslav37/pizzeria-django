@@ -1,0 +1,211 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django-Pizza</title>
+    <style>
+        /* Стилизация ссылок, у которых атрибут href начинается с "https" */
+        a[href^="https"] {
+            color: green;
+        }
+
+        /* Стилизация ссылок, у которых атрибут href заканчивается на ".pdf" */
+        a[href$=".pdf"] {
+            text-decoration: underline;
+            color: #b21f2d;
+        }
+
+        /* Стилизация текстовых полей с атрибутом type="text" */
+        input[type="text"] {
+            border: 2px solid blue;
+            padding: 5px;
+        }
+
+        /* Стилизация элементов с классом "special" */
+        .special {
+            font-weight: bold;
+            color: blue;
+        }
+
+        /* Стилизация элемента <p> с классом "special" */
+        p.special {
+            background-color: yellow;
+        }
+
+        /* Стилизация элемента <div> с классом "special" */
+        div.special {
+            border: 2px solid green;
+        }
+
+        /* Стилизация элементов списка, которые являются потомками <ul> */
+        ul li {
+            font-weight: bold;
+            color: blue;
+        }
+
+        /* Стилизация абзаца внутри блока <div> */
+        div > p {
+            background-color: #FFFFCC;
+            padding: 10px;
+        }
+
+        /* Стилизация ссылки с классом "special" при наведении */
+        a.special:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        /* Стилизация абзаца внутри секции */
+        section p {
+            font-style: italic;
+        }
+
+        /* Стилизация заголовка <h1> внутри блока с классом "header" */
+        .header > h1 {
+            border: 2px solid green;
+            padding: 5px;
+        }
+
+        video {
+          width: 100%;
+        }
+
+        audio {
+          width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать в Django-Pizza</h1>
+
+    <!-- Листинг -->
+    <pre>
+        <code>
+            def test(request):
+                context = {
+                    'title': 'test',
+                }
+                return render(request, 'products/test.html', context)
+        </code>
+    </pre>
+
+    <h1>Селекторы атрибутов (начинаются с подстроки, заканчиваются подстрокой, атрибут с определенным значением)</h1>
+    <a href="https://www.example.com">Ссылка на HTTPS</a>
+    <a href="http://www.example.com">Ссылка на HTTP</a>
+    <input type="text" placeholder="Текстовое поле">
+    <br/>
+
+    <h1>Селекторы классов</h1>
+
+    <p class="special">Это абзац с классом "special".</p>
+    <p>Это обычный абзац.</p>
+    <div class="special">Это блок div с классом "special".</div>
+    <br/>
+
+    <h1>Комбинации селекторов (объединение – AND, селекторы потомков, дочерних элементов)</h1>
+
+    <ul>
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+    </ul>
+
+    <div>
+        <p>Это абзац внутри блока div.</p>
+    </div>
+
+    <a href="#" class="special">Ссылка с классом "special"</a>
+
+    <section>
+        <p>Этот абзац находится внутри секции.</p>
+    </section>
+
+    <div class="header">
+        <h1>Заголовок с классом "header"</h1>
+    </div>
+
+    <!-- Сокращение -->
+    <abbr title="Django-Pizza">Dj</abbr>
+
+    <!-- Определение -->
+    <dl>
+        <dt>Пиццерия</dt>
+        <dd>Заведение, где готовят и доставляют пиццу.</dd>
+    </dl>
+
+    <!-- Цитата -->
+    <blockquote>
+        "Лучшая пицца в городе!"
+        <cite>— Отзыв клиента</cite>
+    </blockquote>
+
+    <!-- Дата и время -->
+    <p>Сегодня: <time datetime="2023-09-21T15:30:00">21 сентября 2023, 15:30</time></p>
+
+    <!-- Четверостишие -->
+    <p>
+        Вкусная пицца здесь,<br>
+        Доставим её скорей.<br>
+        Закажи, не медли,<br>
+        В Django-Pizza приди!
+    </p>
+
+    <p>Скачать меню: <a href="https://www.redfoxsochi.ru/images/menu_pdf/dishes.pdf" download>Меню (PDF)</a></p>
+
+    <!-- Якоря -->
+    <p><a href="{% url 'products:contacts' %}">Контакты</a></p>
+
+
+    <!-- Фигуры -->
+    <figure>
+        <img src="{% static 'vendor/img/djlogo.webp' %}" alt="Пицца">
+        <figcaption>Наша вкусная пицца</figcaption>
+    </figure>
+
+    <!-- Таблица -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название</th>
+                <th>Цена</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="ID">1</td>
+                <td headers="Название">Пепперони</td>
+                <td headers="Цена">50 р.</td>
+            </tr>
+            <tr>
+                <td headers="ID">2</td>
+                <td headers="Название">Гавайская</td>
+                <td headers="Цена">5 р.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Элементы управления -->
+    <label for="pizza_choice">Выберите пиццу:</label>
+    <select id="pizza_choice" name="pizza_choice">
+        <option value="pepperoni">Пепперони</option>
+        <option value="hawaiian">Гавайская</option>
+        <option value="margarita">Маргарита</option>
+    </select>
+
+    <!-- Видео и аудио -->
+    <video controls>
+        <source src="{% static 'vendor/video/ГРУППА ПИЦЦА - Оружие (Премьера! Официальный клип).mp4' %}" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+
+    <audio controls>
+        <source src="{% static 'vendor/sound/zvuk-dvigatelja-ferrari.mp3' %}" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+
+</body>
+</html>
