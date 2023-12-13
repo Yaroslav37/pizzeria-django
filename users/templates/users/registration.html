@@ -1,5 +1,8 @@
 {% extends 'users/base.html' %}
 
+{% block css %}
+{% endblock %}
+
 {% block content %}
     <main>
         <div class="container">
@@ -68,9 +71,43 @@
                         <div class="card-footer text-center">
                             <div class="small"><a href="{% url 'users:login' %}">Уже есть аккаунт? Авторизоваться</a></div>
                         </div>
+
+                        <form id="age-form">
+                                        <label class="small mb-1" for="birthdate">Дата рождения:</label><br>
+                                        <input type="date" id="birthdate" required>
+                        </form>
+
+                        <div id="result"></div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <script>
+        const birthdateInput = document.getElementById('birthdate');
+        const resultDiv = document.getElementById('result');
+
+        birthdateInput.addEventListener('change', function () {
+            const birthdate = new Date(birthdateInput.value);
+            const currentDate = new Date();
+            let age = currentDate.getFullYear() - birthdate.getFullYear();
+            birthdate.setFullYear(currentDate.getFullYear());
+            if (currentDate < birthdate) {
+                age--;
+            }
+            const dayOfWeek = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'][birthdate.getDay()];
+
+            let message = `Ваш возраст: ${age} лет.<br> День недели вашей даты рождения: ${dayOfWeek}.`;
+
+            if (age >= 18) {
+                message += ' Добро пожаловать!';
+            } else {
+                message += ' Вы несовершеннолетний. Для использования сайта необходимо разрешение родителей.';
+                alert('Для использования сайта необходимо разрешение родителей.');
+            }
+
+            resultDiv.innerHTML = message;
+        });
+    </script>
 {% endblock %}

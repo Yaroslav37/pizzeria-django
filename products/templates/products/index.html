@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% static 'vendor/css/index.css' %}" rel="stylesheet">
 {#    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />#}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
     /* Стили для списка партнеров */
         .partner-list {
@@ -163,74 +165,256 @@
         }
 
         .banner {
-  position: relative;
-}
+          position: relative;
+        }
 
-.banner::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 130px;
-  height: 130px;
-  background-color: red;
-  border-radius: 50%;
-  z-index: 9999;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  animation: moveCircle 2s infinite;
-}
+        .banner::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 130px;
+          height: 130px;
+          background-color: red;
+          border-radius: 50%;
+          z-index: 9999;
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+          animation: moveCircle 2s infinite;
+        }
 
-.banner::after {
-  content: "✕";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  z-index: 99999;
-  pointer-events: none;
-}
+        .banner::after {
+          content: "✕";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+          z-index: 99999;
+          pointer-events: none;
+        }
 
-@keyframes moveCircle {
-  0% {
-    transform: translate(-50%, -50%);
-  }
-  25% {
-    transform: translate(0, -50%);
-  }
-  50% {
-    transform: translate(0, 50%);
-  }
-  75% {
-    transform: translate(-50%, 50%);
-  }
-  100% {
-    transform: translate(-50%, -50%);
-  }
-}
+        @keyframes moveCircle {
+          0% {
+            transform: translate(-50%, -50%);
+          }
+          25% {
+            transform: translate(0, -50%);
+          }
+          50% {
+            transform: translate(0, 50%);
+          }
+          75% {
+            transform: translate(-50%, 50%);
+          }
+          100% {
+            transform: translate(-50%, -50%);
+          }
+        }
 
-.banner:hover::before {
-  opacity: 1;
-}
+        .banner:hover::before {
+          opacity: 1;
+        }
 
-.banner:hover::after {
-  opacity: 1;
-}
+        .banner:hover::after {
+          opacity: 1;
+        }
 
-.banner:hover {
-  cursor: not-allowed;
-}
+        .banner:hover {
+          cursor: not-allowed;
+        }
 
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', serif;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+        #top{
+            position: relative;
+            width: 100%;
+            height: 150%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #top::before{
+            content:'';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height:200px;
+            width: 100%;
+            background:linear-gradient(to top,#fff,transparent);
+            z-index: 1000;
+        }
+        #man{
+            top: inherit;
+            bottom: 0;
+            top: 20px;
+        }
+        section img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            pointer-events: none;
+        }
+        #text{
+            position: relative;
+            color:white;
+            font-size: 10rem;
+        }
+        #sec{
+            padding:100px;
+          padding-bottom:20px;
+        }
+        #sec h2{
+            font-size: 4rem;
+            margin-bottom: 30px;
+            color:#20496a;
+        }
+        #sec p{
+            font-size: 1.2rem;
+          line-height:2rem;
+          font-weight:300;
+            color:#20496a;
+        }
+        footer{
+          margin-top:30px;
+          display:flex;
+          padding:20px;
+          justify-content:space-evenly;
+          align-items:center;
+          background-color:#B0DFEA;
+        }
+        footer a{
+          color:#20496a;
+        }
+        footer a i{
+            transition:0.2s;
+        }
+        footer a:nth-of-type(3),footer a:nth-of-type(4), footer a:nth-of-type(5){
+        font-size:1.3rem;}
+        footer a i:hover{
+          transform:translateY(-10px);
+        }
 
+        .banner-container {
+            display: flex;
+            justify-content: center; /* Выравнивание по центру */
+            margin-top: 20px; /* Отступ сверху */
+            margin-bottom: 20px; /* Отступ снизу */
+        }
+
+        .banner-img {
+            border: 2px solid black; /* Черная обводка */
+            display: none;
+            /* Дополнительные стили, если нужны */
+        }
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        #countdown {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+            border: 2px solid #ffa500; /* Оранжевый цвет */
+            border-radius: 5px;
+            margin-top: 20px; /* Отступ сверху */
+            margin-bottom: 20px; /* Отступ снизу */
+            text-align: center;
+            color: orange;
+        }
     </style>
 {% endblock %}
 
 {% block content %}
+            <div id="countdown"></div>
+            <div class="banner-container">
+                {% for banner in banners %}
+                    <a href="{{ banner.link }}">
+                        <img alt="" src="{{ banner.image.url }}" class="banner-img">
+                    </a>
+                {% endfor %}
+            </div>
+            {% if user.is_staff %}
+                <form method="post" action="{% url 'products:update_rotation_interval' %}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="id_rotation_interval">Промежуток времени (мс)</label>
+                        <input type="number" id="id_rotation_interval" name="rotation_interval" value="{{ form.instance.rotation_interval }}">
+                    </div>
+                    <button type="submit">Сохранить</button>
+                </form>
+            {% endif %}
             <div class="container">
+                 <section id="top">
+                      <img src="https://aryan-tayal.github.io/Mountains-Parallax/bg.jpg" id="bg" />
+                      <h2 id="text">Mountains</h2>
+                        <img src="{% static 'vendor/img/img_3.png' %}" alt="Рекламный баннер" id="man">
+                      <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" />
+                      <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" />
+                      <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_left.png" id="mountain_left" />
+                      <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_right.png" id="mountain_right" />
+                 </section>
                 <p>
                     <span class="title-high">Последние новости</span>
                 </p>
@@ -290,8 +474,91 @@
                             </a>
                         </li>
                     </ul>
-
                 </div>
             </div>
+            <div id="interval" data-interval="{{ interval }}"></div>
+
+    <script>
+        let banners = document.querySelectorAll('.banner-img');
+        let currentBanner = 0;
+        let bannerInterval;
+
+        function rotateBanner() {
+            banners.forEach(banner => banner.style.display = 'none');
+            currentBanner = (currentBanner + 1) % banners.length;
+            banners[currentBanner].style.display = 'block';
+        }
+
+        banners[currentBanner].style.display = 'block';
+
+        function startRotation() {
+            bannerInterval = setInterval(rotateBanner, Number(document.getElementById('interval').getAttribute('data-interval')));
+            console.log(Number(document.getElementById('interval').getAttribute('data-interval')));
+            console.log('Значение числа из базы данных:', {{ interval.banner_settings }});
+        }
+        console.log('Значение числа из базы данных:', {{ interval.banner_settings }});
+
+        function stopRotation() {
+            clearInterval(bannerInterval);
+        }
+
+        window.addEventListener('focus', startRotation);
+        window.addEventListener('blur', stopRotation);
+
+        setTimeout(startRotation, 500);
+    </script>
+
+
+
+    <script>
+        const mountainLeft = document.querySelector('#mountain_left');
+        const mountainRight = document.querySelector('#mountain_right');
+        const cloud1 = document.querySelector('#clouds_1');
+        const cloud2 = document.querySelector('#clouds_2');
+        const text = document.querySelector('#text');
+        const man = document.querySelector('#man');
+
+        window.addEventListener('scroll',()=>{
+            let value = scrollY;
+            mountainLeft.style.left = `-${value/0.7}px`
+            cloud2.style.left = `-${value*2}px`
+            mountainRight.style.left = `${value/0.7}px`
+            cloud1.style.left = `${value*2}px`
+            text.style.bottom = `-${value}px`;
+            man.style.height = `${window.innerHeight - value}px`
+        })
+    </script>
+
+    <script>
+        // Функция для запуска обратного отсчета
+        function startCountdown() {
+            const countdownDiv = document.getElementById('countdown');
+            const expirationTime = localStorage.getItem('expirationTime');
+
+            if (expirationTime) {
+                const now = new Date().getTime();
+                const timeLeft = new Date(expirationTime) - now;
+
+                if (timeLeft > 0) {
+                    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+                    countdownDiv.innerHTML = `Осталось времени: ${minutes} минут ${seconds} секунд`;
+                } else {
+                    countdownDiv.innerHTML = 'Время вышло';
+                }
+            } else {
+                const now = new Date().getTime();
+                const expirationTime = new Date(now + 3600000); // 1 час в миллисекундах
+                localStorage.setItem('expirationTime', expirationTime);
+                startCountdown();
+            }
+        }
+
+        startCountdown();
+
+        // Обновление таймера каждую секунду
+        setInterval(startCountdown, 1000);
+    </script>
 
 {% endblock %}

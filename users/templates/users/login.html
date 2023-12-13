@@ -31,10 +31,23 @@
                                     <label class="small mb-1" for="inputEmailAddress">Имя пользователя</label>
                                     {{ form.username }}
                                 </div>
-                                <div class="form-group">
-                                    <label class="small mb-1" for="inputPassword">Пароль</label>
+                                <div class="input-group">
+                                    {% csrf_token %}
                                     {{ form.password }}
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" onclick="showPassword()"> Показать пароль
+                                        </div>
+                                    </div>
                                 </div>
+{#                                <div class="form-group">#}
+{#                                    <label class="small mb-1" for="inputPassword">Пароль</label>#}
+{#                                    {{ form.password }}#}
+{#                                </div>#}
+{#                                <div>#}
+{#                                    <input type="checkbox" onclick="myFunction()">#}
+{#                                    Show Password#}
+{#                                </div>#}
                                 <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
                                     <a class="small" href="#">Забыли пароль?</a>
                                     <input class="btn btn-primary" type="submit" value="Авторизоваться">
@@ -63,4 +76,15 @@
             </div>
         </div>
     </main>
+
+    <script>
+        function showPassword() {
+            var passwordField = document.getElementById("id_password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
 {% endblock %}

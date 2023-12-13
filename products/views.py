@@ -1,19 +1,41 @@
 from django.shortcuts import render, HttpResponseRedirect
 from django.views.decorators.csrf import csrf_exempt
 
-from products.models import Product, ProductCategory, Basket, NewsArticle, Review, FAQ
+from products.models import Product, ProductCategory, Basket, NewsArticle, Review, FAQ, Banner
 from django.contrib.auth.decorators import login_required
 import requests
 import random
 from .forms import ProductSearchForm
 from django.http import JsonResponse
 from users.models import User
+from .models import BannerSettings
+from .forms import BannerSettingsForm
 
 # Create your views here.
 
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+def get_rotation_interval(request):
+    banner_settings = BannerSettings.objects.first()
+    rotation_interval = banner_settings.rotation_interval if banner_settings else 5000  # Значение по умолчанию, если записей нет
+    return JsonResponse({'rotation_interval': rotation_interval})
+
+def banner_settings_view(request):
+    banner_settings = BannerSettings.objects.first()  # Получаем первый объект BannerSettings или создаем новый при необходимости
+
+    if request.method == 'POST':
+        form = BannerSettingsForm(request.POST, instance=banner_settings)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(request.META['HTTP_REFERER'])
+    else:
+        form = BannerSettingsForm(instance=banner_settings)
+
+    return render(request, 'products/index.html', {'form': form})
+
 
 
 def my_view(request):
@@ -27,7 +49,27 @@ def my_view(request):
 def index(request):
     context = {
         'title': 'main',
-        'last_news': NewsArticle.objects.last()
+        'last_news': NewsArticle.objects.last(),
+        'banners': Banner.objects.all(),
+        'interval': BannerSettings.objects.first().rotation_interval,
+    }
+    return render(request, 'products/index.html', context)
+
+
+def update_rotation_interval(request):
+    if request.method == 'POST':
+        rotation_interval = request.POST.get('rotation_interval')  # Получаем значение из POST запроса
+        # print(rotation_interval)
+        banner_settings = BannerSettings.objects.first()  # Получаем первый объект модели
+
+        if banner_settings:
+            banner_settings.rotation_interval = rotation_interval  # Обновляем значение
+            banner_settings.save()  # Сохраняем изменения
+    context = {
+        'title': 'main',
+        'last_news': NewsArticle.objects.last(),
+        'banners': Banner.objects.all(),
+        'interval': BannerSettings.objects.first().rotation_interval,
     }
     return render(request, 'products/index.html', context)
 
@@ -51,7 +93,6 @@ def category(request):
         'title': 'promo',
     }
     return render(request, 'products/vacancies.html', context)
-
 
 
 def confidentiality(request):
@@ -125,6 +166,12 @@ def test3(request):
         'title': 'test2',
     }
     return render(request, 'products/test3.html', context)
+
+def test4(request):
+    context = {
+        'title': 'test2',
+    }
+    return render(request, 'products/test4.html', context)
 
 def news_detail(request, title):
     context = {

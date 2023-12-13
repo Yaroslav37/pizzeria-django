@@ -2944,3 +2944,740 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Not Found: /favicon.ico
 Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /profile/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /users/orders/order-create.html
+Not Found: /users/orders/order-create.html
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/term
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 76, in term
+    return render(request, 'products/faq.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 212, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'css' appears more than once
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /test4
+Not Found: /favicon.ico
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /test4
+Watching for file changes with StatReloader
+Not Found: /test3
+Not Found: /products/4
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00-\xc6\xc0\x00\x00'\x10"
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00-\xc6\xc0\x00\x00'\x10"
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CS6 (Windows)\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 144 - value: b'2014:06:18 11:06:46\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa4'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\x04SI\x00\x00'\x10"
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\x04SI\x00\x00'\x10"
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x03'
+tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop 23.5 (Windows)\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2023:11:22 22:26:56\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\x04SI\x00\x00'\x10"
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\x04SI\x00\x00'\x10"
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x03'
+tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop 23.5 (Windows)\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2023:11:22 22:46:49\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /banners/cola.jpg
+Not Found: /banners/lacoste.jpg
+Not Found: /banners/amg.jpg
+Not Found: /banners/cola.jpg
+Not Found: /banners/lacoste.jpg
+Not Found: /banners/amg.jpg
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Watching for file changes with StatReloader
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Watching for file changes with StatReloader
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Watching for file changes with StatReloader
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Watching for file changes with StatReloader
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+Not Found: /path/to/banner-settings/
+E:\pizzeria-server\pizzeria\products\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 58, in index
+    return render(request, 'products/index.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'banner_settings' not found. 'banner_settings' is not a valid view function or pattern name.
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /get-rotation-interval/
+Not Found: /get-rotation-interval/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /get_rotation_interval
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /get_rotation_interval
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /get_rotation_interval
+Not Found: /get_rotation_interval
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\products\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 56, in index
+    return render(request, 'products/index.html', context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_rotation_interval' not found. 'update_rotation_interval' is not a valid view function or pattern name.
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /test4
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 67, in update_rotation_interval
+    banner_settings.save()  # Сохраняем изменения
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1162, in execute_sql
+    sql, params = self.as_sql()
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1525, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\fields\__init__.py", line 837, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'rotation_interval' expected a number but got ''.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /test4
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /users/orders/order-create.html
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /test4
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: CHECK constraint failed: rotation_interval
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 67, in update_rotation_interval
+    banner_settings.save()  # Сохраняем изменения
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: CHECK constraint failed: rotation_interval
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 62, in update_rotation_interval
+    print(rotation_interval)
+OSError: [Errno 22] Invalid argument
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 62, in update_rotation_interval
+    print(rotation_interval)
+OSError: [Errno 22] Invalid argument
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 62, in update_rotation_interval
+    print(rotation_interval)
+OSError: [Errno 22] Invalid argument
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 62, in update_rotation_interval
+    print(rotation_interval)
+OSError: [Errno 22] Invalid argument
+E:\pizzeria-server\pizzeria\products\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\pizzeria-server\pizzeria\users\forms.py changed, reloading.
+E:\pizzeria-server\pizzeria\users\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing or incorrect.): /users/login/
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing or incorrect.): /users/login/
+Forbidden (CSRF token missing or incorrect.): /users/login/
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing or incorrect.): /users/login/
+Forbidden (CSRF token missing or incorrect.): /users/login/
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /products/update_rotation_interval/
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: CHECK constraint failed: rotation_interval
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pizzeria-server\pizzeria\products\views.py", line 67, in update_rotation_interval
+    banner_settings.save()  # Сохраняем изменения
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pizzeria-server\pizzeria\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: CHECK constraint failed: rotation_interval
+E:\pizzeria-server\pizzeria\products\models.py changed, reloading.
+Watching for file changes with StatReloader

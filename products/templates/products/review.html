@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
     <meta charset="UTF-8">
     <title>Отзывы</title>
     <style>
@@ -101,8 +102,10 @@
         }
 
     </style>
-</head>
-<body>
+{% endblock %}
+
+{% block content %}
+    <body>
 {#    <h1>Отзывы</h1>#}
 {##}
 {#    <!-- Список отзывов -->#}
@@ -151,4 +154,159 @@
         <p>Пока нет отзывов.</p>
     {% endif %}
 </body>
-</html>
+{% endblock %}
+
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Отзывы</title>#}
+{#    <style>#}
+        {#/* Стили для страницы */#}
+        {#body {#}
+        {#    font-family: Arial, sans-serif;#}
+        {#    margin: 20px;#}
+        {#}#}
+        {#.review {#}
+        {#    border: 1px solid #ccc;#}
+        {#    padding: 10px;#}
+        {#    margin-bottom: 10px;#}
+        {#}#}
+        {#.review p {#}
+        {#    margin: 0;#}
+        {#}#}
+        {##add-review {#}
+        {#    margin-top: 20px;#}
+        {#}#}
+{#        /* Стили для страницы */#}
+{#        body {#}
+{#            font-family: Arial, sans-serif;#}
+{#            margin: 20px;#}
+{#        }#}
+{##}
+{#        /* Стили для отзывов */#}
+{#        .review {#}
+{#            border: 1px solid #ccc;#}
+{#            padding: 10px;#}
+{#            margin-bottom: 10px;#}
+{#        }#}
+{##}
+{#        .review p {#}
+{#            margin: 0;#}
+{#        }#}
+{##}
+{#        /* Стили для заголовка "Добавить отзыв" */#}
+{#        #add-review h2 {#}
+{#            font-size: 24px;#}
+{#            font-weight: bold;#}
+{#            text-transform: uppercase;#}
+{#        }#}
+{##}
+{#        /* Стили для формы */#}
+{#        form {#}
+{#            font-family: Arial, sans-serif;#}
+{#            margin-top: 20px;#}
+{#        }#}
+{##}
+{#        /* Стили для оценки (select) */#}
+{#        #rating {#}
+{#            font-size: 16px;#}
+{#            padding: 5px;#}
+{#        }#}
+{##}
+{#        /* Стили для текстового поля отзыва (textarea) */#}
+{#        #review-text {#}
+{#            font-family: Arial, sans-serif;#}
+{#            font-size: 16px;#}
+{#            padding: 10px;#}
+{#            width: 100%;#}
+{#        }#}
+{##}
+{#        /* Стили для кнопки "Отправить" */#}
+{#        input[type="submit"] {#}
+{#            font-family: Arial, sans-serif;#}
+{#            font-size: 16px;#}
+{#            padding: 10px 20px;#}
+{#            background-color: #3498db;#}
+{#            color: #fff;#}
+{#            border: none;#}
+{#            cursor: pointer;#}
+{#        }#}
+{##}
+{#        /* Стили для списка отзывов */#}
+{#        ul {#}
+{#            list-style: none;#}
+{#            padding: 0;#}
+{#        }#}
+{##}
+{#        li {#}
+{#            margin: 0 0 20px;#}
+{#            font-family: Arial, sans-serif;#}
+{#            font-size: 16px;#}
+{#            border: 1px solid #ccc;#}
+{#            padding: 10px;#}
+{#        }#}
+{##}
+{#        /* Стили для данных отзывов */#}
+{#        li strong {#}
+{#            font-weight: bold;#}
+{#        }#}
+{##}
+{#        /* Стили для сообщения "Пока нет отзывов" */#}
+{#        p {#}
+{#            font-family: Arial, sans-serif;#}
+{#            font-size: 16px;#}
+{#        }#}
+{##}
+{#    </style>#}
+{#</head>#}
+{#<body>#}
+{#    <h1>Отзывы</h1>#}
+{##}
+{#    <!-- Список отзывов -->#}
+{#    <div class="review">#}
+{#        <p><strong>Имя:</strong> John Doe</p>#}
+{#        <p><strong>Оценка:</strong> 5 звезд</p>#}
+{#        <p><strong>Текст:</strong> Отличное место, вкусная пицца!</p>#}
+{#        <p><strong>Дата:</strong> 2023-09-14</p>#}
+{#    </div>#}
+{##}
+{#    <!-- Добавление отзыва (требуется регистрация/вход) -->#}
+{#    <div id="add-review">#}
+{#        <h2>Добавить отзыв</h2>#}
+{#        <form action="{% url 'products:review_send' %}" method="post">#}
+{#            {% csrf_token %}#}
+{#            <label for="rating">Оценка:</label>#}
+{#            <select id="rating" name="rating" required>#}
+{#                <option value="★★★★★">★★★★★</option>#}
+{#                <option value="★★★★">★★★★</option>#}
+{#                <option value="★★★">★★★</option>#}
+{#                <option value="★★">★★</option>#}
+{#                <option value="★">★</option>#}
+{#            </select><br>#}
+{##}
+{#            <label for="review-text">Текст отзыва:</label><br>#}
+{#            <textarea id="review-text" name="review-text" rows="4" required></textarea><br>#}
+{##}
+{#            <input type="submit" value="Отправить" href="{% url 'products:review_send' %}">#}
+{#        </form>#}
+{#    </div>#}
+{##}
+{#    <h1>Отзывы</h1>#}
+{##}
+{#    {% if reviews %}#}
+{#        <ul>#}
+{#            {% for review in reviews %}#}
+{#                <li>#}
+{#                    <strong>Имя:</strong> {{ review.username }}<br>#}
+{#                    <strong>Оценка:</strong> {{ review.grade }}<br>#}
+{#                    <strong>Текст:</strong> {{ review.text_review }}<br>#}
+{#                    <strong>Дата:</strong> {{ review.timestamp }}#}
+{#                </li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    {% else %}#}
+{#        <p>Пока нет отзывов.</p>#}
+{#    {% endif %}#}
+{#</body>#}
+{#</html>#}

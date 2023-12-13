@@ -4,156 +4,322 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пример оформления текста</title>
-    <style>
-        /* Устанавливаем отступы и поля */
-        .text-fragment {
-            margin: 20px; /* Отступы по краям блока текста */
-            padding: 10px; /* Поля внутри блока текста */
-        }
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
-        /* Оформляем заголовки с помощью text-transform */
-        h1 {
-            text-transform: uppercase; /* Преобразование текста в заглавные буквы */
-        }
+            .wrapper {
+              display: flex;
+              height: 100vh;
+              align-items: center;
+              box-sizing: border-box;
+            }
 
-        /* Создаем красную строку */
-        p {
-            text-indent: 20px; /* Отступ первой строки */
-        }
+            .card {
+              margin: 0 3vw;
+              width: 25vw;
+              flex-shrink: 0;
+              padding: 2vw;
+              box-sizing: border-box;
+              position: relative;
+              border-radius: 3px;
+              border: 2px solid #000;
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column;
+              box-shadow: 4px 4px 0 rgba(0,0,0,.1);
 
-        /* Задаем межстрочный интервал */
-        .line-spacing {
-            line-height: 3.5; /* Межстрочный интервал 1.5 */
-        }
+            }
 
-        /* Применяем капитель к тексту */
-        .capitalize {
-            text-transform: capitalize; /* Капитализация первой буквы каждого слова */
-            font-variant: small-caps; /* Малые заглавные буквы */
-        }
+            .card-title {
+              transition: .3s;
+              text-align: center;
+              font-family: 'Space Mono', monospace;
+              margin: 1vw 0 0;
+              font-size: 1.5vw;
+              opacity: 0;
+              transform: scale(.7);
+            }
 
-        /* Задаем интервал между словами и символами */
-        .word-spacing {
-            word-spacing: 5px; /* Интервал между словами */
-            letter-spacing: 2px; /* Интервал между символами */
-        }
+            .card:last-child::after {
+              content: "";
+              width: 6vw;
+              position: absolute;
+              height: 100%;
+              right: -6vw;
+              top: 0;
+            }
 
-        /* Включаем перенос слов */
-        .hyphenate {
-            hyphens: auto; /* Автоматический перенос слов */
-            word-wrap: break-word; /* Разрыв слов при необходимости */
-        }
+            .card img {
+              max-width: 70%;
+              max-height: 50vh;
+              opacity: 0;
+              margin: auto;
+              display: block;
+              transition: .35s;
+              transform: rotate(6deg) translate(0, 40px) scaleY(.6);
+            }
 
-        /* Задаем шрифты и выравнивание текста */
-        .font-style {
-            font-family: Arial, sans-serif; /* Выбираем шрифт */
-            font-size: 16px; /* Размер шрифта */
-            text-align: justify; /* Выравнивание текста по ширине */
-        }
+            .card.isVisible img {
+              max-width: 100%;
+              opacity: 1;
+              transform: none;
+            }
 
-        /* Позиционируем блоки для расположения на странице */
-        .page-layout {
-            position: relative; /* Относительное позиционирование */
-            top: 100px; /* Отступ сверху */
-            left: 50px; /* Отступ слева */
-        }
+            .card.isVisible .card-title {
+              opacity: 1;
+              transform: none;
+              transition-delay: .1s;
+            }
 
-        table {
-            width: 100%;
-            border-collapse: collapse; /* Убираем двойные линии между ячейками */
-        }
+            .card:first-child { margin-left: 6vw; }
 
-        th, td {
-            text-align: center; /* Горизонтальное выравнивание информации в ячейках */
-            vertical-align: middle; /* Вертикальное выравнивание информации в ячейках */
-            padding: 10px;
-        }
 
-        th {
-            background-color: #3498db; /* Фон заголовка таблицы */
-            color: white; /* Цвет текста в заголовке таблицы */
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2; /* Стилизация четных строк */
-        }
-
-        td:nth-child(odd) {
-            background-color: #e5e5e5; /* Стилизация нечетных столбцов */
-        }
-
-        /* Для столбцов: примените стили к td:nth-child(номер_столбца) */
-        td:nth-child(1) {
-            background-color: #ffc107; /* Пример стилизации первого столбца */
-        }
-
-        /* Настройки расположения таблицы на странице */
-        .table-container {
-            margin: 100px auto; /* Центрирование таблицы по горизонтали */
-        }
+        {#/* Устанавливаем отступы и поля */#}
+        {#.text-fragment {#}
+        {#    margin: 20px; /* Отступы по краям блока текста */#}
+        {#    padding: 10px; /* Поля внутри блока текста */#}
+        {#}#}
+        {##}
+        {#/* Оформляем заголовки с помощью text-transform */#}
+        {#h1 {#}
+        {#    text-transform: uppercase; /* Преобразование текста в заглавные буквы */#}
+        {#}#}
+        {##}
+        {#/* Создаем красную строку */#}
+        {#p {#}
+        {#    text-indent: 20px; /* Отступ первой строки */#}
+        {#}#}
+        {##}
+        {#/* Задаем межстрочный интервал */#}
+        {#.line-spacing {#}
+        {#    line-height: 3.5; /* Межстрочный интервал 1.5 */#}
+        {#}#}
+        {##}
+        {#/* Применяем капитель к тексту */#}
+        {#.capitalize {#}
+        {#    text-transform: capitalize; /* Капитализация первой буквы каждого слова */#}
+        {#    font-variant: small-caps; /* Малые заглавные буквы */#}
+        {#}#}
+        {##}
+        {#/* Задаем интервал между словами и символами */#}
+        {#.word-spacing {#}
+        {#    word-spacing: 5px; /* Интервал между словами */#}
+        {#    letter-spacing: 2px; /* Интервал между символами */#}
+        {#}#}
+        {##}
+        {#/* Включаем перенос слов */#}
+        {#.hyphenate {#}
+        {#    hyphens: auto; /* Автоматический перенос слов */#}
+        {#    word-wrap: break-word; /* Разрыв слов при необходимости */#}
+        {#}#}
+        {##}
+        {#/* Задаем шрифты и выравнивание текста */#}
+        {#.font-style {#}
+        {#    font-family: Arial, sans-serif; /* Выбираем шрифт */#}
+        {#    font-size: 16px; /* Размер шрифта */#}
+        {#    text-align: justify; /* Выравнивание текста по ширине */#}
+        {#}#}
+        {##}
+        {#/* Позиционируем блоки для расположения на странице */#}
+        {#.page-layout {#}
+        {#    position: relative; /* Относительное позиционирование */#}
+        {#    top: 100px; /* Отступ сверху */#}
+        {#    left: 50px; /* Отступ слева */#}
+        {#}#}
+        {##}
+        {#table {#}
+        {#    width: 100%;#}
+        {#    border-collapse: collapse; /* Убираем двойные линии между ячейками */#}
+        {#}#}
+        {##}
+        {#th, td {#}
+        {#    text-align: center; /* Горизонтальное выравнивание информации в ячейках */#}
+        {#    vertical-align: middle; /* Вертикальное выравнивание информации в ячейках */#}
+        {#    padding: 10px;#}
+        {#}#}
+        {##}
+        {#th {#}
+        {#    background-color: #3498db; /* Фон заголовка таблицы */#}
+        {#    color: white; /* Цвет текста в заголовке таблицы */#}
+        {#}#}
+        {##}
+        {#tr:nth-child(even) {#}
+        {#    background-color: #f2f2f2; /* Стилизация четных строк */#}
+        {#}#}
+        {##}
+        {#td:nth-child(odd) {#}
+        {#    background-color: #e5e5e5; /* Стилизация нечетных столбцов */#}
+        {#}#}
+        {##}
+        {#/* Для столбцов: примените стили к td:nth-child(номер_столбца) */#}
+        {#td:nth-child(1) {#}
+        {#    background-color: #ffc107; /* Пример стилизации первого столбца */#}
+        {#}#}
+        {##}
+        {#/* Настройки расположения таблицы на странице */#}
+        {#.table-container {#}
+        {#    margin: 100px auto; /* Центрирование таблицы по горизонтали */#}
+        {#}#}
     </style>
 </head>
 <body>
-    <div class="text-fragment">
-        <h1>Заголовок</h1>
-        <p class="capitalize">этот текст будет оформлен капителью</p>
-        <p class="line-spacing">Этот текст будет иметь межстрочный интервал.
-            Этот текст будет иметь межстрочный интервал.
-            Этот текст будет иметь межстрочный интервал.
-            Этот текст будет иметь межстрочный интервал.
-            Этот текст будет иметь межстрочный интервал.
-            Этот текст будет иметь межстрочный интервал.
-            Этот текст будет иметь межстрочный интервал.
-        </p>
-        <p class="word-spacing hyphenate">Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.
-            Здесьбудетинтервалмеждусловамии переносслов. Здесьбудетинтервалмеждусловамиипереносслов.
-            Здесьбудетинтервалмеждусловамии переносслов. Здесьбудетинтервалмеждусловамиипереносслов.
-        </p>
-    </div>
-
-    <div class="font-style page-layout">
-        <p>Этот текст будет иметь заданный шрифт и располагаться на странице с указанными отступами.</p>
-    </div>
-
-        <div class="table-container">
-            <table>
-                <!-- Заголовок таблицы -->
-                <caption>Заголовок таблицы</caption>
-                <thead>
-                    <tr>
-                        <th>Заголовок 1</th>
-                        <th>Заголовок 2</th>
-                        <th>Заголовок 3</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Ячейка 1</td>
-                        <td>Ячейка 2</td>
-                        <td>Ячейка 3</td>
-                    </tr>
-                    <tr>
-                        <td></td> <!-- Пустая ячейка -->
-                        <td>Ячейка 5</td>
-                        <td>Ячейка 6</td>
-                    </tr>
-                    <tr>
-                        <td>Ячейка 7</td>
-                        <td>Ячейка 8</td>
-                        <td></td> <!-- Пустая ячейка -->
-                    </tr>
-                </tbody>
-            </table>
+    <div class="wrapper">
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/3274e863fd1e40b9bbb4ab1316408130_292x292.webp" />
+            <h2 class="card-title">Пицца из половинок</h2>
         </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/3276f7457aa646caa256ad77fa984634_292x292.webp" />
+            <h2 class="card-title">Кантри-пицца</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/11ee8a9ca3f5add1afb78d7d2f05cf46_292x292.webp" />
+            <h2 class="card-title">Чикен бомбони</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/11ee79a43e14f1a791b51ba3cbe1192a_292x292.webp" />
+            <h2 class="card-title">Креветки со сладким чили</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/aa2554d960a8417e8103041763f74520_292x292.webp" />
+            <h2 class="card-title">Трюфельная</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/70834e6311c0483493bf2279dbc1718d_292x292.webp" />
+            <h2 class="card-title">Пепперони</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/0a496a3d8b87415dbc3d3647ff8f3db8_292x292.webp" />
+            <h2 class="card-title">Карбонара</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/778cd3360b124344b86d3031bc02386e_292x292.webp" />
+            <h2 class="card-title">Итальянский цыпленок</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/d878f20b7ed84877b33662a212a398a0_292x292.webp" />
+            <h2 class="card-title">Аррива</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/4ce729f1b8db4b60abf8827c7efb28c6_292x292.webp" />
+            <h2 class="card-title">Деревенская</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/ee610848581545c298a429c05802f56d_292x292.webp" />
+            <h2 class="card-title">Домашняя</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/bdc5caa51bd64af1b8712fc03aeaf386_292x292.webp" />
+            <h2 class="card-title">Ветчина и сыр</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/f04f6e1cd2004bfa83389a3563076053_292x292.webp" />
+            <h2 class="card-title">Цыпленок барбекю</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/143590256f2c4010b8028219e2fd93dc_292x292.webp" />
+            <h2 class="card-title">Итальянская</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/c04ab5bb5c824108ac857043bc8f8751_292x292.webp" />
+            <h2 class="card-title">Сырная</h2>
+        </div>
+        <div class="card">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/a10ad669c5054be2b019613e5cfd2477_292x292.webp" />
+            <h2 class="card-title">Маргарита</h2>
+        </div>
+
+        <script>
+            const cards = document.querySelectorAll(".card");
+
+            function isElementInViewport(el) {
+              const rect = el.getBoundingClientRect();
+              return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <=
+                  (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+              );
+            }
+
+            function isCardVisible() {
+                let card;
+                for (card of cards) {
+                isElementInViewport(card)
+                  ? card.classList.add("isVisible")
+                  : card.classList.remove("isVisible");
+              }
+            }
+
+            document.addEventListener("DOMContentLoaded", isCardVisible);
+            window.addEventListener("scroll", isCardVisible);
+            window.addEventListener("resize", isCardVisible);
+        </script>
+
+    </div>
+
+
+{#    <div class="text-fragment">#}
+{#        <h1>Заголовок</h1>#}
+{#        <p class="capitalize">этот текст будет оформлен капителью</p>#}
+{#        <p class="line-spacing">Этот текст будет иметь межстрочный интервал.#}
+{#            Этот текст будет иметь межстрочный интервал.#}
+{#            Этот текст будет иметь межстрочный интервал.#}
+{#            Этот текст будет иметь межстрочный интервал.#}
+{#            Этот текст будет иметь межстрочный интервал.#}
+{#            Этот текст будет иметь межстрочный интервал.#}
+{#            Этот текст будет иметь межстрочный интервал.#}
+{#        </p>#}
+{#        <p class="word-spacing hyphenate">Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесь будет интервал между словами и перенос слов. Здесь будет интервал между словами и перенос слов.#}
+{#            Здесьбудетинтервалмеждусловамии переносслов. Здесьбудетинтервалмеждусловамиипереносслов.#}
+{#            Здесьбудетинтервалмеждусловамии переносслов. Здесьбудетинтервалмеждусловамиипереносслов.#}
+{#        </p>#}
+{#    </div>#}
+{##}
+{#    <div class="font-style page-layout">#}
+{#        <p>Этот текст будет иметь заданный шрифт и располагаться на странице с указанными отступами.</p>#}
+{#    </div>#}
+{##}
+{#        <div class="table-container">#}
+{#            <table>#}
+{#                <!-- Заголовок таблицы -->#}
+{#                <caption>Заголовок таблицы</caption>#}
+{#                <thead>#}
+{#                    <tr>#}
+{#                        <th>Заголовок 1</th>#}
+{#                        <th>Заголовок 2</th>#}
+{#                        <th>Заголовок 3</th>#}
+{#                    </tr>#}
+{#                </thead>#}
+{#                <tbody>#}
+{#                    <tr>#}
+{#                        <td>Ячейка 1</td>#}
+{#                        <td>Ячейка 2</td>#}
+{#                        <td>Ячейка 3</td>#}
+{#                    </tr>#}
+{#                    <tr>#}
+{#                        <td></td> <!-- Пустая ячейка -->#}
+{#                        <td>Ячейка 5</td>#}
+{#                        <td>Ячейка 6</td>#}
+{#                    </tr>#}
+{#                    <tr>#}
+{#                        <td>Ячейка 7</td>#}
+{#                        <td>Ячейка 8</td>#}
+{#                        <td></td> <!-- Пустая ячейка -->#}
+{#                    </tr>#}
+{#                </tbody>#}
+{#            </table>#}
+{#        </div>#}
 </body>
 </html>

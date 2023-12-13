@@ -1,8 +1,7 @@
-
+{% extends 'products/base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
+{% block css %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новости</title>
@@ -36,8 +35,10 @@
             flex: 1; /* Равное распределение по колонкам */
         }
     </style>
-</head>
-<body>
+{% endblock %}
+
+{% block content %}
+    <body>
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container">
@@ -77,4 +78,83 @@
     <footer class="footer">
     </footer>
 </body>
-</html>
+{% endblock %}
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <meta name="viewport" content="width=device-width, initial-scale=1.0">#}
+{#    <title>Новости</title>#}
+{#    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />#}
+{#    <style>#}
+{##}
+{#        p::first-line {#}
+{#            font-size: 120%;#}
+{#            font-style: italic;#}
+{#            color: #007bff;#}
+{#        }#}
+{##}
+{#        /* Стили для краткой информации и кнопки "Читать далее" */#}
+{#        .article-summary {#}
+{#            max-height: 3em; /* Ограничение высоты для краткой информации */#}
+{#            overflow: hidden;#}
+{#            text-overflow: ellipsis; /* Многоточие для обрезанного текста */#}
+{#        }#}
+{##}
+{#        .read-more {#}
+{#            margin-top: 10px;#}
+{#        }#}
+{##}
+{#        /* Стили для многоколоночного макета */#}
+{#        .article {#}
+{#            display: flex;#}
+{#            flex-wrap: wrap;#}
+{#        }#}
+{##}
+{#        .article .media {#}
+{#            flex: 1; /* Равное распределение по колонкам */#}
+{#        }#}
+{#    </style>#}
+{#</head>#}
+{#<body>#}
+{#    <section class="hero is-primary">#}
+{#        <div class="hero-body">#}
+{#            <div class="container">#}
+{#                <h1 class="title">#}
+{#                    Новости#}
+{#                </h1>#}
+{#            </div>#}
+{#        </div>#}
+{#    </section>#}
+{#    <section class="section">#}
+{#        <div class="container">#}
+{#            <div class="rows">#}
+{#                <div class="column is-offset-16 is-10">#}
+{#                    {% for obj in news %}#}
+{#                        <div class="box">#}
+{#                            <article class="media">#}
+{#                                <div class="media-content">#}
+{#                                    <div class="content">#}
+{#                                        <p>#}
+{#                                            <span class="title">{{ obj.title }}</span>#}
+{#                                            <br>#}
+{#                                            <img src="{{ obj.img }}" alt="">#}
+{#                                            <span class="subtitle">{{ obj.description }}</span>#}
+{#                                        </p>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </article>#}
+{#                            Дата и время: {{ obj.timestamp|date:"F j, Y H:i:s" }}#}
+{#                            <a href="{% url 'products:news_details' obj.title %}">Читать далее</a>#}
+{#                        </div>#}
+{#                    {% endfor %}#}
+{##}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </section>#}
+{#    <footer class="footer">#}
+{#    </footer>#}
+{#</body>#}
+{#</html>#}

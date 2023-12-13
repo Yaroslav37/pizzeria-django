@@ -1,6 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
+
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
     <meta charset="UTF-8">
     <title>{{ title }}</title>
     <style>
@@ -79,8 +81,10 @@
             font-style: italic;
         }
     </style>
-</head>
-<body>
+{% endblock %}
+
+{% block content %}
+    <body>
     <h1>Часто задаваемые вопросы</h1>
     <ul class="glossary">
         {% for term in terms %}
@@ -96,4 +100,5 @@
         {% endfor %}
     </ul>
 </body>
-</html>
+{% endblock %}
+

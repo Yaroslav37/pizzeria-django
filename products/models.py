@@ -4,6 +4,16 @@ from users.models import User
 # Create your models here.
 
 
+class Banner(models.Model):
+    image = models.ImageField(upload_to='banners/')
+    link = models.URLField()
+
+
+class BannerSettings(models.Model):
+    rotation_interval = models.PositiveIntegerField(default=5000)
+    zalups = models.IntegerField(max_length=8)
+
+
 class NewsArticle(models.Model):
     title = models.CharField(max_length=255, blank=True)
     description = models.TextField()
